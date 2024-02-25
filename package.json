@@ -7,6 +7,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
+    "build": "esbuild src/index.ts --bundle --minify --outfile=dist/index.js",
     "fmt": "npm-run-all fmt:*",
     "fmt:src": "biome format --write src/*.ts",
     "fmt:package": "sort-package-json",
