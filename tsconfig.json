@@ -9,6 +9,7 @@
   ],
   "compilerOptions": {
     "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "esnext",
     "noEmit": true,
     "esModuleInterop": true,
     "isolatedModules": true,
