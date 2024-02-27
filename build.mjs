@@ -1,5 +1,5 @@
-import * as esbuild from "esbuild";
 import { readFileSync } from "fs";
+import * as esbuild from "esbuild";
 import { ensure, is } from "unknownutil";
 
 const userScript = ({ name, version, description, author }) => ({
@@ -12,7 +12,7 @@ const userScript = ({ name, version, description, author }) => ({
         `// @version ${version}`,
         `// @description ${description}`,
         `// @author ${author}`,
-        `// @match https://github.com/notifications*`,
+        "// @match https://github.com/notifications*",
         "// ==/UserScript==",
       ].join("\n"),
     };
