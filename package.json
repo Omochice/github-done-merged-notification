@@ -9,6 +9,9 @@
   "main": "dist/index.user.js",
   "scripts": {
     "clean": "rimraf dist",
+    "check": "npm-run-all check:*",
+    "check:type": "tsc --noEmit",
+    "check:fmt": "biome check build.mjs src/*.ts",
     "build": "node build.mjs",
     "fmt": "npm-run-all fmt:*",
     "fmt:src": "biome format --write build.mjs src/*.ts",
