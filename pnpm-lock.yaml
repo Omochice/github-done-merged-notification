@@ -34,7 +34,7 @@ devDependencies:
     version: 5.4.2
   unknownutil:
     specifier: ^3.16.3
-    version: 3.16.3
+    version: 3.17.0
 
 packages:
 
@@ -931,8 +931,8 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /unknownutil@3.16.3:
-    resolution: {integrity: sha512-dBvDsEe+aUKP0ORQ8qX5O1PDEmA3Y529TGufKDlLzaNWXzy/BMgCWK1YAMs+zB1FRIpgDvXkv50WPDdJd5UGgQ==}
+  /unknownutil@3.17.0:
+    resolution: {integrity: sha512-kjR/Sx+TfVTtNG6ELufddoLHOoePF9mFzIqF/W7cBg5qrSabOsB/g3NfwDPE/fPEmvPtn9EVz+SOb81TmpqW8w==}
     dev: true
 
   /v8-compile-cache-lib@3.0.1:
