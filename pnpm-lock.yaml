@@ -13,7 +13,7 @@ devDependencies:
     version: 1.0.4
   '@tsconfig/strictest':
     specifier: ^2.0.3
-    version: 2.0.3
+    version: 2.0.4
   esbuild:
     specifier: ^0.20.1
     version: 0.20.2
@@ -416,8 +416,8 @@ packages:
     resolution: {integrity: sha512-7RfsHlJYsqASGpV7R7zJ72baBBoqvbTj9dD4SHYSeLSMkMjSUhi15SZQK/7GQPCAmOhEoEC87HneaXihVXF6YA==}
     dev: true
 
-  /@tsconfig/strictest@2.0.3:
-    resolution: {integrity: sha512-MroLvRhMbqtXI5WBSwoomro6OQS4xnCoudUrMb20JO0vLKUs0bAaCEcvM/immEBSJjFAK1l6jW1oAO8q3Ancrg==}
+  /@tsconfig/strictest@2.0.4:
+    resolution: {integrity: sha512-/VKO/oufDOvAE48KGzZOEXFBKtR3PnGlb4cJoRtw3Ax5tYwaWnaNgyTJDviIbvjlnn82WMfTNvhegFkj5Xt2UA==}
     dev: true
 
   /@types/node@20.11.30:
