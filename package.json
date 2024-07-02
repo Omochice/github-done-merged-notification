@@ -23,7 +23,7 @@
     "@biomejs/biome": "^1.5.3",
     "@tsconfig/recommended": "^1.0.3",
     "@tsconfig/strictest": "^2.0.3",
-    "esbuild": "^0.20.1",
+    "esbuild": "^0.23.0",
     "npm-run-all2": "^6.1.2",
     "rimraf": "^5.0.5",
     "sort-package-json": "^2.8.0",
